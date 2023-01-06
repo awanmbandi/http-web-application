@@ -7,7 +7,7 @@ phases:
       - aws --version
       - echo $AWS_DEFAULT_REGION
       - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
-      - REPOSITORY_URI=371636523863.dkr.ecr.us-west-2.amazonaws.com/ecr-simplehttp
+      - REPOSITORY_URI=007350209865.dkr.ecr.us-west-2.amazonaws.com/ecr-simplehttp
       - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
       - IMAGE_TAG=${COMMIT_HASH:=latest}
   build:
