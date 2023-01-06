@@ -1,5 +1,5 @@
 ## HTTP Wep App Written In Golang
-Simple webserver in golang, to demonstrate basic functionalities like e.g. sending back some request header info, the local IP address of the container and how to include the usage of environment variables.
+This goland app demonstrate basic functionalities like e.g. sending back some request header info, the local IP address of the container and how to include the usage of environment variables.
 
 ### what does it do?
 
