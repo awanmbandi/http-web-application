@@ -1,14 +1,14 @@
 ## HTTP Wep App Written In Golang
 This goland app demonstrate basic functionalities like e.g. sending back some request header info, the local IP address of the container and how to include the usage of environment variables.
 
-### what does it do?
+### What does it do?
 
 This container starts a webserver on port 8000 and returns back 
 - some header information
-- the local ip address of the container
+- the local ip address of the container/ecs task
 - the message provided by environment variable called _message_  
 
-### usage
+### Usage
 
 to start _simplehttp_ web server , map local port 8000 into container and provide the env variable **message**:  
 ```bash
